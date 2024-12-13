@@ -44,7 +44,7 @@
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(49, 59);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(242, 199);
+            pictureBox1.Size = new Size(258, 227);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -52,7 +52,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(346, 106);
+            label1.Location = new Point(373, 95);
             label1.Name = "label1";
             label1.Size = new Size(38, 15);
             label1.TabIndex = 1;
@@ -61,7 +61,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(346, 172);
+            label2.Location = new Point(373, 161);
             label2.Name = "label2";
             label2.Size = new Size(38, 15);
             label2.TabIndex = 2;
@@ -69,21 +69,21 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(414, 103);
+            textBox1.Location = new Point(441, 92);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(146, 23);
             textBox1.TabIndex = 3;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(419, 164);
+            textBox2.Location = new Point(446, 153);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(141, 23);
             textBox2.TabIndex = 4;
             // 
             // button1
             // 
-            button1.Location = new Point(425, 233);
+            button1.Location = new Point(403, 224);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 5;
@@ -92,7 +92,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(570, 234);
+            button2.Location = new Point(512, 224);
             button2.Name = "button2";
             button2.Size = new Size(75, 23);
             button2.TabIndex = 6;
@@ -104,7 +104,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonFace;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(701, 365);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(textBox2);
