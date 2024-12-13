@@ -1,6 +1,6 @@
 ﻿namespace ProjetoLogin.Apresentacao
 {
-    partial class Cadastre__se
+    partial class CadastreSe
     {
         /// <summary>
         /// Required designer variable.
@@ -74,7 +74,7 @@
             // 
             txtLogin.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txtLogin.Location = new Point(67, 94);
-            txtLogin.Margin = new Padding(4, 4, 4, 4);
+            txtLogin.Margin = new Padding(4);
             txtLogin.Name = "txtLogin";
             txtLogin.Size = new Size(294, 22);
             txtLogin.TabIndex = 3;
@@ -83,7 +83,7 @@
             // 
             txtSenha.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txtSenha.Location = new Point(70, 186);
-            txtSenha.Margin = new Padding(4, 4, 4, 4);
+            txtSenha.Margin = new Padding(4);
             txtSenha.Name = "txtSenha";
             txtSenha.PasswordChar = '*';
             txtSenha.Size = new Size(207, 22);
@@ -93,7 +93,7 @@
             // 
             txtConfirmarSenha.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txtConfirmarSenha.Location = new Point(70, 286);
-            txtConfirmarSenha.Margin = new Padding(4, 4, 4, 4);
+            txtConfirmarSenha.Margin = new Padding(4);
             txtConfirmarSenha.Name = "txtConfirmarSenha";
             txtConfirmarSenha.PasswordChar = '*';
             txtConfirmarSenha.Size = new Size(207, 22);
@@ -102,14 +102,14 @@
             // btnCadastrar
             // 
             btnCadastrar.Location = new Point(107, 339);
-            btnCadastrar.Margin = new Padding(4, 4, 4, 4);
+            btnCadastrar.Margin = new Padding(4);
             btnCadastrar.Name = "btnCadastrar";
             btnCadastrar.Size = new Size(140, 56);
             btnCadastrar.TabIndex = 6;
             btnCadastrar.Text = "Cadastrar";
             btnCadastrar.UseVisualStyleBackColor = true;
             // 
-            // Cadastre__se
+            // CadastreSe
             // 
             AutoScaleDimensions = new SizeF(10F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -123,8 +123,8 @@
             Controls.Add(label1);
             Font = new Font("Calisto MT", 12F);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
-            Margin = new Padding(4, 4, 4, 4);
-            Name = "Cadastre__se";
+            Margin = new Padding(4);
+            Name = "CadastreSe";
             Text = "Cadastre__se";
             ResumeLayout(false);
             PerformLayout();

@@ -103,6 +103,7 @@
             btnSair.TabIndex = 6;
             btnSair.Text = "Sair";
             btnSair.UseVisualStyleBackColor = false;
+            btnSair.Click += btnSair_Click;
             // 
             // btnCadastreSe
             // 
@@ -113,6 +114,7 @@
             btnCadastreSe.TabIndex = 7;
             btnCadastreSe.Text = "CADASTRE - SE";
             btnCadastreSe.UseVisualStyleBackColor = false;
+            btnCadastreSe.Click += btnCadastreSe_Click;
             // 
             // Form1
             // 
