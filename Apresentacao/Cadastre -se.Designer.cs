@@ -31,17 +31,17 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            button1 = new Button();
+            txtLogin = new TextBox();
+            txtSenha = new TextBox();
+            txtConfirmarSenha = new TextBox();
+            btnCadastrar = new Button();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Calisto MT", 12F);
-            label1.Location = new Point(113, 72);
+            label1.Location = new Point(67, 58);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
             label1.Size = new Size(51, 19);
@@ -52,7 +52,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Calisto MT", 12F);
-            label2.Location = new Point(116, 163);
+            label2.Location = new Point(70, 149);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
             label2.Size = new Size(51, 19);
@@ -63,61 +63,61 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Calisto MT", 12F);
-            label3.Location = new Point(116, 258);
+            label3.Location = new Point(70, 244);
             label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
             label3.Size = new Size(129, 19);
             label3.TabIndex = 2;
             label3.Text = "Confirmar Senha";
             // 
-            // textBox1
+            // txtLogin
             // 
-            textBox1.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(113, 108);
-            textBox1.Margin = new Padding(4, 4, 4, 4);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(294, 22);
-            textBox1.TabIndex = 3;
+            txtLogin.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtLogin.Location = new Point(67, 94);
+            txtLogin.Margin = new Padding(4, 4, 4, 4);
+            txtLogin.Name = "txtLogin";
+            txtLogin.Size = new Size(294, 22);
+            txtLogin.TabIndex = 3;
             // 
-            // textBox2
+            // txtSenha
             // 
-            textBox2.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.Location = new Point(116, 200);
-            textBox2.Margin = new Padding(4, 4, 4, 4);
-            textBox2.Name = "textBox2";
-            textBox2.PasswordChar = '*';
-            textBox2.Size = new Size(207, 22);
-            textBox2.TabIndex = 4;
+            txtSenha.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtSenha.Location = new Point(70, 186);
+            txtSenha.Margin = new Padding(4, 4, 4, 4);
+            txtSenha.Name = "txtSenha";
+            txtSenha.PasswordChar = '*';
+            txtSenha.Size = new Size(207, 22);
+            txtSenha.TabIndex = 4;
             // 
-            // textBox3
+            // txtConfirmarSenha
             // 
-            textBox3.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox3.Location = new Point(116, 300);
-            textBox3.Margin = new Padding(4, 4, 4, 4);
-            textBox3.Name = "textBox3";
-            textBox3.PasswordChar = '*';
-            textBox3.Size = new Size(207, 22);
-            textBox3.TabIndex = 5;
+            txtConfirmarSenha.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtConfirmarSenha.Location = new Point(70, 286);
+            txtConfirmarSenha.Margin = new Padding(4, 4, 4, 4);
+            txtConfirmarSenha.Name = "txtConfirmarSenha";
+            txtConfirmarSenha.PasswordChar = '*';
+            txtConfirmarSenha.Size = new Size(207, 22);
+            txtConfirmarSenha.TabIndex = 5;
             // 
-            // button1
+            // btnCadastrar
             // 
-            button1.Location = new Point(153, 353);
-            button1.Margin = new Padding(4, 4, 4, 4);
-            button1.Name = "button1";
-            button1.Size = new Size(140, 56);
-            button1.TabIndex = 6;
-            button1.Text = "Cadastrar";
-            button1.UseVisualStyleBackColor = true;
+            btnCadastrar.Location = new Point(107, 339);
+            btnCadastrar.Margin = new Padding(4, 4, 4, 4);
+            btnCadastrar.Name = "btnCadastrar";
+            btnCadastrar.Size = new Size(140, 56);
+            btnCadastrar.TabIndex = 6;
+            btnCadastrar.Text = "Cadastrar";
+            btnCadastrar.UseVisualStyleBackColor = true;
             // 
             // Cadastre__se
             // 
             AutoScaleDimensions = new SizeF(10F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(520, 481);
-            Controls.Add(button1);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            ClientSize = new Size(393, 443);
+            Controls.Add(btnCadastrar);
+            Controls.Add(txtConfirmarSenha);
+            Controls.Add(txtSenha);
+            Controls.Add(txtLogin);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -135,9 +135,9 @@
         private Label label1;
         private Label label2;
         private Label label3;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private Button button1;
+        private TextBox txtLogin;
+        private TextBox txtSenha;
+        private TextBox txtConfirmarSenha;
+        private Button btnCadastrar;
     }
 }
