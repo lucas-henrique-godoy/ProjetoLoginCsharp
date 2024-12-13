@@ -53,20 +53,20 @@
             // lblLogin
             // 
             lblLogin.AutoSize = true;
-            lblLogin.Font = new Font("Calisto MT", 9.75F);
-            lblLogin.Location = new Point(373, 95);
+            lblLogin.Font = new Font("Calisto MT", 14.25F);
+            lblLogin.Location = new Point(360, 93);
             lblLogin.Name = "lblLogin";
-            lblLogin.Size = new Size(53, 15);
+            lblLogin.Size = new Size(75, 22);
             lblLogin.TabIndex = 1;
             lblLogin.Text = "LOGIN";
             // 
             // lblSenha
             // 
             lblSenha.AutoSize = true;
-            lblSenha.Font = new Font("Calisto MT", 9.75F);
-            lblSenha.Location = new Point(373, 161);
+            lblSenha.Font = new Font("Calisto MT", 14.25F);
+            lblSenha.Location = new Point(360, 159);
             lblSenha.Name = "lblSenha";
-            lblSenha.Size = new Size(54, 15);
+            lblSenha.Size = new Size(78, 22);
             lblSenha.TabIndex = 2;
             lblSenha.Text = "SENHA";
             // 
@@ -79,9 +79,11 @@
             // 
             // txbSenha
             // 
+            txbSenha.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txbSenha.Location = new Point(446, 153);
             txbSenha.Name = "txbSenha";
-            txbSenha.Size = new Size(179, 23);
+            txbSenha.PasswordChar = '*';
+            txbSenha.Size = new Size(179, 25);
             txbSenha.TabIndex = 4;
             // 
             // btnEntrar
@@ -104,10 +106,10 @@
             // 
             // btnCadastreSe
             // 
-            btnCadastreSe.Font = new Font("Calibri", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnCadastreSe.Location = new Point(492, 281);
+            btnCadastreSe.Font = new Font("Calisto MT", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnCadastreSe.Location = new Point(441, 283);
             btnCadastreSe.Name = "btnCadastreSe";
-            btnCadastreSe.Size = new Size(133, 28);
+            btnCadastreSe.Size = new Size(179, 28);
             btnCadastreSe.TabIndex = 7;
             btnCadastreSe.Text = "CADASTRE - SE";
             btnCadastreSe.UseVisualStyleBackColor = false;
@@ -117,7 +119,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonFace;
-            ClientSize = new Size(701, 380);
+            ClientSize = new Size(688, 370);
             Controls.Add(btnCadastreSe);
             Controls.Add(btnSair);
             Controls.Add(btnEntrar);
