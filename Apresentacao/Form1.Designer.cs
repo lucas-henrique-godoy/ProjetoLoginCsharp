@@ -30,12 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             pictureBox1 = new PictureBox();
-            label1 = new Label();
-            label2 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            button1 = new Button();
-            button2 = new Button();
+            lblLogin = new Label();
+            lblSenha = new Label();
+            txbLogin = new TextBox();
+            txbSenha = new TextBox();
+            btnEntrar = new Button();
+            btnSair = new Button();
+            btnCadastreSe = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -49,55 +50,67 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
-            // label1
+            // lblLogin
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(373, 95);
-            label1.Name = "label1";
-            label1.Size = new Size(38, 15);
-            label1.TabIndex = 1;
-            label1.Text = "label1";
+            lblLogin.AutoSize = true;
+            lblLogin.Font = new Font("Calisto MT", 9.75F);
+            lblLogin.Location = new Point(373, 95);
+            lblLogin.Name = "lblLogin";
+            lblLogin.Size = new Size(53, 15);
+            lblLogin.TabIndex = 1;
+            lblLogin.Text = "LOGIN";
             // 
-            // label2
+            // lblSenha
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(373, 161);
-            label2.Name = "label2";
-            label2.Size = new Size(38, 15);
-            label2.TabIndex = 2;
-            label2.Text = "label2";
+            lblSenha.AutoSize = true;
+            lblSenha.Font = new Font("Calisto MT", 9.75F);
+            lblSenha.Location = new Point(373, 161);
+            lblSenha.Name = "lblSenha";
+            lblSenha.Size = new Size(54, 15);
+            lblSenha.TabIndex = 2;
+            lblSenha.Text = "SENHA";
             // 
-            // textBox1
+            // txbLogin
             // 
-            textBox1.Location = new Point(441, 92);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(184, 23);
-            textBox1.TabIndex = 3;
+            txbLogin.Location = new Point(441, 92);
+            txbLogin.Name = "txbLogin";
+            txbLogin.Size = new Size(184, 23);
+            txbLogin.TabIndex = 3;
             // 
-            // textBox2
+            // txbSenha
             // 
-            textBox2.Location = new Point(446, 153);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(179, 23);
-            textBox2.TabIndex = 4;
+            txbSenha.Location = new Point(446, 153);
+            txbSenha.Name = "txbSenha";
+            txbSenha.Size = new Size(179, 23);
+            txbSenha.TabIndex = 4;
             // 
-            // button1
+            // btnEntrar
             // 
-            button1.Location = new Point(413, 224);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 5;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            btnEntrar.Location = new Point(429, 224);
+            btnEntrar.Name = "btnEntrar";
+            btnEntrar.Size = new Size(75, 23);
+            btnEntrar.TabIndex = 5;
+            btnEntrar.Text = "Entrar";
+            btnEntrar.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnSair
             // 
-            button2.Location = new Point(550, 224);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 6;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            btnSair.Location = new Point(550, 224);
+            btnSair.Name = "btnSair";
+            btnSair.Size = new Size(75, 23);
+            btnSair.TabIndex = 6;
+            btnSair.Text = "Sair";
+            btnSair.UseVisualStyleBackColor = false;
+            // 
+            // btnCadastreSe
+            // 
+            btnCadastreSe.Font = new Font("Calibri", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnCadastreSe.Location = new Point(492, 281);
+            btnCadastreSe.Name = "btnCadastreSe";
+            btnCadastreSe.Size = new Size(133, 28);
+            btnCadastreSe.TabIndex = 7;
+            btnCadastreSe.Text = "CADASTRE - SE";
+            btnCadastreSe.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -105,12 +118,13 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonFace;
             ClientSize = new Size(701, 380);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(label2);
-            Controls.Add(label1);
+            Controls.Add(btnCadastreSe);
+            Controls.Add(btnSair);
+            Controls.Add(btnEntrar);
+            Controls.Add(txbSenha);
+            Controls.Add(txbLogin);
+            Controls.Add(lblSenha);
+            Controls.Add(lblLogin);
             Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Form1";
@@ -123,11 +137,12 @@
         #endregion
 
         private PictureBox pictureBox1;
-        private Label label1;
-        private Label label2;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Button button1;
-        private Button button2;
+        private Label lblLogin;
+        private Label lblSenha;
+        private TextBox txbLogin;
+        private TextBox txbSenha;
+        private Button btnEntrar;
+        private Button btnSair;
+        private Button btnCadastreSe;
     }
 }
